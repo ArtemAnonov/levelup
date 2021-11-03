@@ -1565,19 +1565,14 @@ body.ie ._ibg img {
   }
 }
 .info-form__timer-text {
-  margin-right: calc(10px + 10 * ((100vw - 320px) / 1600));
+  margin-right: calc(70px + 30 * ((100vw - 320px) / 1600));
   font-size: calc(24px + 12 * ((100vw - 320px) / 1600));
   line-height: 120%;
   color: #FFFFFF;
   font-weight: 500;
-  padding-right: calc(10px + 10 * ((100vw - 320px) / 1600));
-}
-@media (max-width: 1350px) {
-  .info-form__timer-text {
-    margin-right: 0;
-  }
 }
 .info-form__timer-num {
+  position: absolute;
   font-size: calc(24px + 12 * ((100vw - 320px) / 1600));
   line-height: 120%;
   font-weight: bold;
